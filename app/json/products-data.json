@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Apple Iphone 8",
+    "price": "3125 zl",
+    "imgPath": "/img/products/1.jpg"
+  },
+  {
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/2.jpg"
+  },
+  {
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/3.jpg"
+  },
+  {
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/4.jpg"
+  },
+  {
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/5.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "3500 zl",
+    "imgPath": "/img/products/6.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "3125 zl",
+    "imgPath": "/img/products/1.jpg"
+  },
+  {
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/2.jpg"
+  },
+  {
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/3.jpg"
+  },
+  {
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/4.jpg"
+  },
+  {
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/5.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "3500 zl",
+    "imgPath": "/img/products/6.jpg"
+  }
+]

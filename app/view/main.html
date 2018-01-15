@@ -1,0 +1,35 @@
+<section class="info">
+    <div class="col-md-12">
+        <h2 class="info-article">{{articleTitle}}</h2>
+        <hr class="category_hr">
+    </div>
+</section>
+
+<section class="filters">
+    <div class="col-md-6">
+        <div class="filter-wrapper">
+            <label for="nameFilter">Filter By Name:</label>
+            <input type="text" id="nameFilter" placeholder="Type Product Name" ng-model="search.name">
+        </div>
+        <div class="filter-wrapper">
+            <label for="priceFilter">Filter By Price:</label>
+            <input type="text" id="priceFilter" placeholder="Type Product Price" ng-model="search.price">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="changeCategoryBtn__wrap">
+            <button class="btn btn-success changeCategoryBtn" type="button"
+                    ng-repeat="item in categories"
+                    ng-attr-data-number="{{$index}}"
+                    ng-class="{'active': $index == activeProductNumber}"
+                    ng-click="changeCategory($event)">{{item.category}}
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <ng-include src="'view/smartphones.html'" ng-show="activeProductPage == 'smartphones'"></ng-include>
+    <ng-include src="'view/tablets.html'" ng-show="activeProductPage == 'tablets'"></ng-include>
+    <ng-include src="'view/tv.html'" ng-show="activeProductPage == 'tv'"></ng-include>
+</section>
