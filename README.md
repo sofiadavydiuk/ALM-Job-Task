@@ -6,6 +6,12 @@ Dla uruchamiania strony trzeba w terminali wpisać tę komandy:
 
 "gulp watch"
 
+Hosting:
+
+http://yar-site.esy.es/
+
+
+
 1) Zrobiłam zadanie za pomocą Angular 1 bo uczyłam go trochę około 2 lat temu. I tak jak miałam mało czasu na zadanie to to był najszybszy sposób na zrobienie go.
 * Ajax request do JSON pliku
 2) Stworzyłam imitacje bazy danych za pomocą JSON pliku, bo nie umiem robić serwerów baz danych, bo nigdy z tym nie pracowałam.
