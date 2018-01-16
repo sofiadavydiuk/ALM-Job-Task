@@ -1,5 +1,4 @@
-Dzien dobry,
-To link do zrobionego zadania na github.
+Opis:
 
 1) Zrobiłam zadanie za pomocą Angular 1 bo uczyłam go trochę około 2 lat temu. I tak jak miałam mało czasu na zadanie to to był najszybszy sposób na zrobienie go.
 * Ajax request do JSON pliku
@@ -28,6 +27,7 @@ Strona ma 3 Kategorie produktów:
 Dla uruchamiania strony trzeba w terminali wpisać tę komandy:
 
 npm i
+
 gulp watch
 
 
