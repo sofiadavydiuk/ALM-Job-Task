@@ -67,8 +67,9 @@ gulp.task('imagemin', function() {
 
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
 	gulp.watch('app/style/sass/*.sass', ['sass']);
-	gulp.watch('app/js/scripts.min.js', ['scripts']);
-	gulp.watch('app/js/controller/*.js', browserSync.reload);
+	gulp.watch('app/js/**/*.js', ['scripts']);
+	gulp.watch('app/style/sass/*.sass', browserSync.reload);
+	gulp.watch('app/js/**/*.js', browserSync.reload);
 	gulp.watch('app/*.html', browserSync.reload);
 });
 

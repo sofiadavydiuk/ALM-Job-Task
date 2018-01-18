@@ -47,10 +47,10 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
 
     //Displaying different lists of products when click on filter buttons:
     $scope.changeCategory = function (event) {
-        $scope.articleTitle = $(event.target).text().trim();
-        $scope.activeProductPage = $(event.target).text().toLowerCase().trim();
+        $scope.articleTitle = $(event.target).text().trim();                    // displayed in the top article of the page
+        $scope.activeProductPage = $(event.target).text().toLowerCase().trim(); // used only in ng-include to load appropriate htmls category block
         $(".changeCategoryBtn").removeClass("active");
-        $scope.activeProductNumber = $(event.target).data("number");
+        $scope.activeProductNumber = $(event.target).data("number");            // needed to highlight clicked category button
     }
 
     $scope.getProductsInfo();
