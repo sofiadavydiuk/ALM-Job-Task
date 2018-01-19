@@ -2,7 +2,7 @@
 
 <div class="col-xs-12 col-sm-6 col-md-4 " ng-repeat="item in tvProducts | filter:search">
     <div class="products__item">
-        <img src="{{item.imgPath}}" alt="product image" class="products__logo products__logo_tv">
+        <img ng-src="{{item.imgPath}}" alt="product image" class="products__logo products__logo_tv">
         <p class="products__name">{{item.name}}</p>
         <p class="products__price">{{item.price}}</p>
         <div class="products__buttons-wrap">
