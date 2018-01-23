@@ -38,5 +38,85 @@
     "name": "Apple Iphone 8",
     "price": "125 zl",
     "imgPath": "/img/products/tablet_8.jpg"
+  },
+  {
+    "name": "TV Super Duper Smart",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_1.jpg"
+  },
+  {
+    "name": "Apple Iphone 7",
+    "price": "135 zl",
+    "imgPath": "/img/products/tablet_2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_3.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_4.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_5.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_6.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_7.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_8.jpg"
+  },
+  {
+    "name": "TV Super Duper Smart",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_1.jpg"
+  },
+  {
+    "name": "Apple Iphone 7",
+    "price": "135 zl",
+    "imgPath": "/img/products/tablet_2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_3.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_4.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_5.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_6.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_7.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tablet_8.jpg"
   }
 ]

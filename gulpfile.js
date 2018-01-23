@@ -34,8 +34,8 @@ gulp.task('json-minify', function () {
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/jquery-3.2.1.slim.min.js',
-		'app/libs/angularjs/angular.1.6.2.min.js',
-		'app/libs/angularjs/angular-route.1.6.2.min.js',
+		'app/libs/angularjs/angular.min.js',
+		'app/libs/angularjs/angular.route.min.js',
 		'app/libs/bootstrap/js/bootstrap.min.js',
 		'app/js/app.js',
 		'app/js/app-config.js',
@@ -66,11 +66,10 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
-	gulp.watch('app/style/sass/*.sass', ['sass']);
-	gulp.watch('app/js/**/*.js', ['scripts']);
-	gulp.watch('app/style/sass/*.sass', browserSync.reload);
-	gulp.watch('app/js/**/*.js', browserSync.reload);
-	gulp.watch('app/*.html', browserSync.reload);
+    gulp.watch('app/style/sass/*.sass', ['sass']);
+    gulp.watch('app/js/scripts.min.js', ['scripts']);
+    gulp.watch('app/js/controller/*.js', browserSync.reload);
+    gulp.watch('app/*.html', browserSync.reload);
 });
 
 gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
@@ -100,9 +99,9 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 		'app/style/fonts/**/*']
 		).pipe(gulp.dest('dist/style/fonts'));
 
-}); //di
+});
 
-
+gulp.task('removedist', function() { return del.sync('dist'); });
 gulp.task('clearcache', function () { return cache.clearAll(); });
 
 gulp.task('default', ['watch', 'browser-sync']);

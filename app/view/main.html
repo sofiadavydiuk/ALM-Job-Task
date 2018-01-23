@@ -6,6 +6,14 @@
 </section>
 
 <section class="filters">
+    <div class="col-md-12">
+
+        <div class="filter-wrapper_main">
+            <input type="text" id="nameFilterMain" placeholder="Search" ng-model="mainSearchVal" >
+           <button class="btn btn-success" ng-click="getShowMainSearchResults()"> Search </button>
+        </div>
+
+    </div>
     <div class="col-md-6">
         <div class="filter-wrapper">
             <label for="nameFilter">Filter By Name:</label>
@@ -32,4 +40,6 @@
     <ng-include src="'view/smartphones.html'" ng-show="activeProductPage == 'smartphones'"></ng-include>
     <ng-include src="'view/tablets.html'" ng-show="activeProductPage == 'tablets'"></ng-include>
     <ng-include src="'view/tv.html'" ng-show="activeProductPage == 'tv'"></ng-include>
+
+    <ng-include src="'view/main_search_results.html'" ng-show="activeProductPage == 'search'"></ng-include>
 </section>

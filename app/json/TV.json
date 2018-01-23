@@ -52,11 +52,71 @@
   {
     "name": "Apple Iphone 8",
     "price": "125 zl",
+    "imgPath": "/img/products/tv2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
+  },
+  {
+    "name": "TV Super Duper Smart",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
+  },
+  {
+    "name": "Apple Iphone 7",
+    "price": "135 zl",
+    "imgPath": "/img/products/tv2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv3.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
     "imgPath": "/img/products/tv5.jpg"
   },
   {
     "name": "Apple Iphone 8",
     "price": "125 zl",
     "imgPath": "/img/products/tv6.jpg"
+  },
+  {
+    "name": "TV Super Duper Smart",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
+  },
+  {
+    "name": "Apple Iphone 7",
+    "price": "135 zl",
+    "imgPath": "/img/products/tv2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv3.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv2.jpg"
+  },
+  {
+    "name": "Apple Iphone 8",
+    "price": "125 zl",
+    "imgPath": "/img/products/tv1.jpg"
   }
 ]

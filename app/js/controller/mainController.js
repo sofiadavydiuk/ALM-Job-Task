@@ -7,6 +7,13 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     $scope.activeProductPage = "smartphones";
     $scope.activeProductNumber = 0;
     $scope.articleTitle = "Smartphone";
+    $scope.quantity = 8;
+
+    $scope.mainSearchVal = '';
+    $scope.mainSearchRes = {};
+
+
+
 
 
     $scope.getProductsInfo = function () {
@@ -53,9 +60,26 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $scope.activeProductNumber = $(event.target).data("number");            // needed to highlight clicked category button
     }
 
+    $scope.getShowMainSearchValue = function () {
+       // $scope.mainObj = [ $scope.productData, $scope.tvProducts, $scope.tabletProducts];
+       console.log('test');
+    }
+
+    $scope.getBtnLoad = function() {
+        $scope.quantity += 8;
+    }
+
+    $scope.getShowMainSearchResults = function() {
+        $scope.activeProductPage = 'search';
+
+    }
+
     $scope.getProductsInfo();
     $scope.getCategoriesInfo();
     $scope.getTVInfo();
     $scope.getTabletsProductsInfo();
+    $scope.getShowMainSearchValue();
+
+
 
 }]);
