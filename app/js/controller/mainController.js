@@ -61,8 +61,9 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     }
 
     $scope.getShowMainSearchValue = function () {
-       // $scope.mainObj = [ $scope.productData, $scope.tvProducts, $scope.tabletProducts];
-       console.log('test');
+       $scope.mainObj = [ $scope.productData, $scope.tvProducts, $scope.tabletProducts];
+       console.log($scope.mainObj[0]['name']);
+       console.log($scope.mainObj[0][0]['name']);
     }
 
     $scope.getBtnLoad = function() {
