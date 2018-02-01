@@ -1,20 +1,44 @@
 mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http) {
 
-    $scope.productData = {};
     $scope.categories = {};
+    $scope.productData = {};
     $scope.tabletProducts = {};
     $scope.tvProducts = {};
-    $scope.activeProductPage = "smartphones";
-    $scope.activeProductNumber = 0;
     $scope.articleTitle = "Smartphone";
     $scope.quantity = 8;
 
+    $scope.activeProductPage = ( sessionStorage.getItem("activePage") ) ?  sessionStorage.getItem("activePage") : "smartphones" ;
+
+    $scope.activeProductNumber = ( sessionStorage.getItem("activeProduct") ) ?  sessionStorage.getItem("activeProduct") : 0 ;
+
+    // if(sessionStorage.getItem("activePage")){
+    //     $scope.activeProductPage = sessionStorage.getItem("activePage");
+    // }else{
+    //     $scope.activeProductPage = "smartphones";
+    // }
+    //
+    // if(sessionStorage.getItem("activeProduct")){
+    //     $scope.activeProductNumber = sessionStorage.getItem("activeProduct");
+    // }else{
+    //     $scope.activeProductNumber = 0 ;
+    // }
+
+    
     $scope.mainSearchVal = '';
     $scope.mainSearchRes = {};
 
 
+    $scope.propertyName = 'price';
+    $scope.reverse = true;
 
 
+
+
+
+    $scope.sortBy = function(propertyName) {
+        $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
+        $scope.propertyName = propertyName;
+    };
 
     $scope.getProductsInfo = function () {
         $http.get("/json/products-data.json")
@@ -58,12 +82,12 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $scope.activeProductPage = $(event.target).text().toLowerCase().trim(); // used only in ng-include to load appropriate htmls category block
         $(".changeCategoryBtn").removeClass("active");
         $scope.activeProductNumber = $(event.target).data("number");            // needed to highlight clicked category button
+        sessionStorage.setItem("activePage", $scope.activeProductPage);
+        sessionStorage.setItem("activeProduct", $scope.activeProductNumber);
     }
 
     $scope.getShowMainSearchValue = function () {
        $scope.mainObj = [ $scope.productData, $scope.tvProducts, $scope.tabletProducts];
-       console.log($scope.mainObj[0]['name']);
-       console.log($scope.mainObj[0][0]['name']);
     }
 
     $scope.getBtnLoad = function() {
@@ -75,12 +99,18 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
 
     }
 
+    $scope.testFunc = function(){
+        setTimeout(function(){
+            $scope.newObj = $.extend({}, $scope.productData, $scope.tabletProducts, $scope.tvProducts);
+        },1000)
+    }
+
     $scope.getProductsInfo();
     $scope.getCategoriesInfo();
     $scope.getTVInfo();
     $scope.getTabletsProductsInfo();
     $scope.getShowMainSearchValue();
-
+    $scope.testFunc();
 
 
 }]);

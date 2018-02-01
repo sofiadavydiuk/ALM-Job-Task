@@ -1,9 +1,4 @@
-<section class="info">
-    <div class="col-md-12">
-        <h2 class="info-article">{{articleTitle}}</h2>
-        <hr class="category_hr">
-    </div>
-</section>
+
 
 <section class="filters">
     <div class="col-md-12">
@@ -13,8 +8,11 @@
            <button class="btn btn-success" ng-click="getShowMainSearchResults()"> Search </button>
         </div>
 
+
+
     </div>
     <div class="col-md-6">
+
         <div class="filter-wrapper">
             <label for="nameFilter">Filter By Name:</label>
             <input type="text" id="nameFilter" placeholder="Type Product Name" ng-model="search.name">
@@ -35,11 +33,19 @@
         </div>
     </div>
 </section>
+<section>
+    <button class="btn btn-success" type="button"  ng-click="sortBy('price')">
+        Order By Price
+        <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <!--<button class="btn btn-success" type="button" >From Cheap to Expensive-->
+        <!--<i class="fa fa-arrow-up" aria-hidden="true"></i></button>-->
+</section>
 
 <section class="products">
     <ng-include src="'view/smartphones.html'" ng-show="activeProductPage == 'smartphones'"></ng-include>
     <ng-include src="'view/tablets.html'" ng-show="activeProductPage == 'tablets'"></ng-include>
     <ng-include src="'view/tv.html'" ng-show="activeProductPage == 'tv'"></ng-include>
 
-    <ng-include src="'view/main_search_results.html'" ng-show="activeProductPage == 'search'"></ng-include>
+    <ng-include src="'view/search.html'" ng-show="activeProductPage == 'search'"></ng-include>
 </section>

@@ -1,5 +1,10 @@
 <div class="clearfix"></div>
 
+<div class="col-md-12">
+    <h2 class="info-article">TV</h2>
+    <hr class="category_hr">
+</div>
+
 <div class="col-xs-12 col-sm-6 col-md-4 " ng-repeat="item in tvProducts | filter:search  | limitTo:quantity">
     <div class="products__item">
         <img ng-src="{{item.imgPath}}" alt="product image" class="products__logo products__logo_tv">
