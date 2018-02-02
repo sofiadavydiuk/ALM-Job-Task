@@ -36,6 +36,7 @@ gulp.task('scripts', function() {
         'app/libs/jquery/jquery-3.2.1.slim.min.js',
         'app/libs/angularjs/angular.min.js',
         'app/libs/angularjs/angular.route.min.js',
+        'app/libs/angularjs/angular-animate.min.js',
         'app/libs/bootstrap/js/bootstrap.min.js',
         'app/js/app.js',
         'app/js/app-config.js',
