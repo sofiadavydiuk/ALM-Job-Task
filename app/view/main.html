@@ -43,9 +43,5 @@
 </section>
 
 <section class="products">
-    <ng-include src="'view/smartphones.html'" ng-show="activeProductPage == 'smartphones'"></ng-include>
-    <ng-include src="'view/tablets.html'" ng-show="activeProductPage == 'tablets'"></ng-include>
-    <ng-include src="'view/tv.html'" ng-show="activeProductPage == 'tv'"></ng-include>
-
-    <ng-include src="'view/search.html'" ng-show="activeProductPage == 'search'"></ng-include>
+    <div class="ngIncludeItem" ng-include="srcPage[activeProductNumber]"></div>
 </section>

@@ -7,6 +7,8 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     $scope.articleTitle = "Smartphone";
     $scope.quantity = 8;
 
+    $scope.srcPage = ["view/smartphones.html", "view/tablets.html", "view/tv.html", "view/search.html"];
+
     $scope.activeProductPage = ( sessionStorage.getItem("activePage") ) ?  sessionStorage.getItem("activePage") : "smartphones" ;
 
     $scope.activeProductNumber = ( sessionStorage.getItem("activeProduct") ) ?  sessionStorage.getItem("activeProduct") : 0 ;
