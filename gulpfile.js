@@ -1,6 +1,7 @@
 var 	gulp       = require('gulp'),
     gutil              = require('gulp-util'),
     sass               = require('gulp-sass'),
+    less               = require('gulp-less'),
     browserSync        = require('browser-sync'),
     concat             = require('gulp-concat'),
     uglify             = require('gulp-uglify'),
@@ -48,9 +49,9 @@ gulp.task('scripts', function() {
         .pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('sass', function() {
-    return gulp.src('app/style/sass/*.sass')
-        .pipe(sass({
+gulp.task('less', function() {
+    return gulp.src('app/style/less/*.less')
+        .pipe(less({
             includePaths: bourbon.includePaths
         }).on("error", notify.onError()))
         .pipe(rename({suffix: '.min', prefix : ''}))
@@ -66,8 +67,8 @@ gulp.task('imagemin', function() {
         .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
-    gulp.watch('app/style/sass/*.sass', ['sass']);
+gulp.task('watch', ['less', 'scripts', 'browser-sync'], function() {
+    gulp.watch('app/style/less/*.less', ['less']);
     gulp.watch('app/js/scripts.min.js', ['scripts']);
     gulp.watch('app/js/controller/*.js', browserSync.reload);
     gulp.watch('app/*.html', browserSync.reload);
@@ -104,4 +105,5 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 gulp.task('clearcache', function () { return cache.clearAll(); });
+
 gulp.task('default', ['watch', 'browser-sync']);

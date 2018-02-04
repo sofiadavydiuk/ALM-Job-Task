@@ -1,0 +1,199 @@
+@import "_fonts.less";
+@import "_libs.less";
+@import "_vars.less";
+@import "_media.less";
+
+body {
+	font-size: 16px !important;
+	min-width: 320px !important;
+	position: relative !important;
+	line-height: 1.6 !important;
+	font-family: "roboto", sans-serif !important;
+	overflow-x: hidden !important;
+	background-color: #FFF !important;
+	opacity: 1;
+}
+
+.ng-cloak, [ng\:cloak], [ng-cloak] {
+	display: none;
+}
+
+.header {
+	margin-bottom: 50px;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand__img {
+	height: 50px;
+	max-width: 100%;
+}
+
+.info-article {
+	text-align: center;
+	font-style: italic;
+	margin: 20px auto 40px;
+	font-size: 42px;
+	font-family: serif;
+	text-shadow: 1px 1px;
+}
+
+.products__name {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: serif;
+}
+
+.products__name,
+.products__price,
+.products__btn {
+	text-align: center;
+}
+
+.btn-success:focus,
+.btn-success:hover {
+	background-color: #90EE90;
+	background-position: center;
+}
+
+.products__buttons-wrap {
+	text-align: center;
+}
+
+.products__item {
+	padding: 20px 0;
+}
+
+.products__logo {
+	max-width: 100%;
+}
+
+.category-item:hover {
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #337ab7;
+}
+
+.name_of_category {
+	text-align: center;
+	color: grey;
+	font-size: 40px;
+
+	margin-bottom: 40px;
+	font-style: italic;
+}
+
+.category_hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+//Button
+
+.changeCategoryBtn {
+	opacity: .5;
+	transition: 0.3s all ease;
+	outline: none;
+	background: darkseagreen;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		opacity: 1;
+		outline: none;
+	}
+}
+
+.btn-success:focus,
+.btn-success:hover {
+	background-color: #419641;
+}
+
+.changeCategoryBtn {
+	border: 0;
+	border-radius: 0;
+	background: green;
+}
+
+.changeCategoryBtn.active {
+	background: green;
+}
+
+#priceFilter {
+	margin-left: 6px;
+}
+
+.btn:not([disabled]):not(.disabled) {
+	outline: none;
+}
+
+@media (min-width: 992px) {
+	.changeCategoryBtn__wra {
+		text-align: right;
+	}
+
+	.products__item:hover {
+		box-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
+	}
+
+	//section-footer
+	.footer {
+		margin-top: 60px;
+	}
+
+	.footer-row {
+		background: #061D25;
+	}
+
+	.section-footer {
+		background: #061D25;
+		padding: 10px 0;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.section-footer a {
+		color: #70726F;
+		font-size: 20px;
+		padding: 10px;
+		transition: all .5s ease;
+	}
+
+	.section-footer a:hover {
+		color: white;
+	}
+
+	//Additional classes
+	input {
+		font-style: italic;
+	}
+
+	.products__logo_tv {
+		max-width: 70%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.btn_load {
+		margin-top: 40px;
+	}
+
+	.ngIncludeItem.ng-enter {
+		transition: 1s ease all;
+		opacity: 0;
+	}
+
+	.ngIncludeItem.ng-enter.ng-enter-active {
+		opacity: 1;
+	}
+}

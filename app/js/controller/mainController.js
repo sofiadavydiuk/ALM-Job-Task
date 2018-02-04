@@ -90,8 +90,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     }
 
     $scope.openSearchPage = function (searchPageNumber) {
-        console.log($scope.mainSearchVal.value);
-       if ($scope.mainSearchVal.value != '') {
+       if ($scope.mainSearchVal.value != '' && $scope.mainSearchVal.value != undefined) {
            $scope.activeProductNumber = searchPageNumber;
        }
     }
