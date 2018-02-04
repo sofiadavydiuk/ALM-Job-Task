@@ -104,5 +104,4 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 gulp.task('clearcache', function () { return cache.clearAll(); });
-
 gulp.task('default', ['watch', 'browser-sync']);

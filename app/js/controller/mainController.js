@@ -6,38 +6,21 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     $scope.tvProducts = {};
     $scope.articleTitle = "Smartphone";
     $scope.quantity = 8;
-
     $scope.srcPage = ["view/smartphones.html", "view/tablets.html", "view/tv.html", "view/search.html"];
+    $scope.activeProductPage = (sessionStorage.getItem("activePage")) ? sessionStorage.getItem("activePage") : "smartphones";
 
-    $scope.activeProductPage = ( sessionStorage.getItem("activePage") ) ?  sessionStorage.getItem("activePage") : "smartphones" ;
+    $scope.activeProductNumber = (sessionStorage.getItem("activeProduct")) ? sessionStorage.getItem("activeProduct") : 0;
 
-    $scope.activeProductNumber = ( sessionStorage.getItem("activeProduct") ) ?  sessionStorage.getItem("activeProduct") : 0 ;
+    $scope.mainSearchVal = {};
 
-    // if(sessionStorage.getItem("activePage")){
-    //     $scope.activeProductPage = sessionStorage.getItem("activePage");
-    // }else{
-    //     $scope.activeProductPage = "smartphones";
-    // }
-    //
-    // if(sessionStorage.getItem("activeProduct")){
-    //     $scope.activeProductNumber = sessionStorage.getItem("activeProduct");
-    // }else{
-    //     $scope.activeProductNumber = 0 ;
-    // }
-
-    
-    $scope.mainSearchVal = '';
     $scope.mainSearchRes = {};
-
+    $scope.wholeProductsData = [{}];
 
     $scope.propertyName = 'price';
     $scope.reverse = true;
 
 
-
-
-
-    $scope.sortBy = function(propertyName) {
+    $scope.sortBy = function (propertyName) {
         $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
         $scope.propertyName = propertyName;
     };
@@ -46,6 +29,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $http.get("/json/products-data.json")
             .then(function (response) {
                 $scope.productData = response.data;
+                $scope.wholeProduct($scope.productData);
             }, function (error) {
                 console.log("error on getting product data1");
             });
@@ -64,6 +48,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $http.get("/json/TV.json")
             .then(function (response) {
                 $scope.tvProducts = response.data;
+                $scope.wholeProduct($scope.tvProducts);
             }, function (error) {
                 console.log("error on getting product data3");
             });
@@ -73,6 +58,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $http.get("/json/tablets.json")
             .then(function (response) {
                 $scope.tabletProducts = response.data;
+                $scope.wholeProduct($scope.tabletProducts);
             }, function (error) {
                 console.log("error on getting product data4");
             });
@@ -88,31 +74,31 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         sessionStorage.setItem("activeProduct", $scope.activeProductNumber);
     }
 
-    $scope.getShowMainSearchValue = function () {
-       $scope.mainObj = [ $scope.productData, $scope.tvProducts, $scope.tabletProducts];
-    }
-
-    $scope.getBtnLoad = function() {
+    $scope.getBtnLoad = function () {
         $scope.quantity += 8;
     }
 
-    $scope.getShowMainSearchResults = function() {
+    $scope.getShowMainSearchResults = function () {
         $scope.activeProductPage = 'search';
 
     }
 
-    $scope.testFunc = function(){
-        setTimeout(function(){
-            $scope.newObj = $.extend({}, $scope.productData, $scope.tabletProducts, $scope.tvProducts);
-        },1000)
+    $scope.wholeProduct = function (array) {
+        $.each(array, function (i, elem) {
+            $scope.wholeProductsData.push(elem);
+        });
+    }
+
+    $scope.openSearchPage = function (searchPageNumber) {
+        console.log($scope.mainSearchVal.value);
+       if ($scope.mainSearchVal.value != '') {
+           $scope.activeProductNumber = searchPageNumber;
+       }
     }
 
     $scope.getProductsInfo();
     $scope.getCategoriesInfo();
     $scope.getTVInfo();
     $scope.getTabletsProductsInfo();
-    $scope.getShowMainSearchValue();
-    $scope.testFunc();
-
 
 }]);

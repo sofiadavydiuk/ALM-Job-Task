@@ -1,18 +1,13 @@
-
-
 <section class="filters">
+
     <div class="col-md-12">
-
         <div class="filter-wrapper_main">
-            <input type="text" id="nameFilterMain" placeholder="Search" ng-model="mainSearchVal" >
-           <button class="btn btn-success" ng-click="getShowMainSearchResults()"> Search </button>
+            <input type="text" id="nameFilterMain" placeholder="Search" ng-model="mainSearchVal.value" >
+           <button class="btn btn-success" ng-click="openSearchPage(3)"> Search </button>
         </div>
-
-
-
     </div>
-    <div class="col-md-6">
 
+    <div class="col-md-6">
         <div class="filter-wrapper">
             <label for="nameFilter">Filter By Name:</label>
             <input type="text" id="nameFilter" placeholder="Type Product Name" ng-model="search.name">
