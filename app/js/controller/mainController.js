@@ -6,6 +6,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     $scope.tvProducts = {};
     $scope.articleTitle = "Smartphone";
     $scope.quantity = 8;
+    $scope.searchCoeficient = 0;
     $scope.srcPage = ["view/smartphones.html", "view/tablets.html", "view/tv.html", "view/search.html"];
     $scope.activeProductPage = (sessionStorage.getItem("activePage")) ? sessionStorage.getItem("activePage") : "smartphones";
 
@@ -87,12 +88,23 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $.each(array, function (i, elem) {
             $scope.wholeProductsData.push(elem);
         });
+       
     }
 
     $scope.openSearchPage = function (searchPageNumber) {
-       if ($scope.mainSearchVal.value != '' && $scope.mainSearchVal.value != undefined) {
-           $scope.activeProductNumber = searchPageNumber;
-       }
+        if ($scope.mainSearchVal.value != '' && $scope.mainSearchVal.value != undefined) {
+            $scope.activeProductNumber = searchPageNumber;
+
+            // $.each($scope.wholeProductsData, function (i, elem) {
+            //     $.each(elem, function (k, value) {
+            //         $scope.test = value.indexOf($scope.mainSearchVal.value);
+            //         if ($scope.test != -1) {
+            //             $scope.searchCoeficient++;
+            //         }
+            //     })
+            //
+            // })
+        }
     }
 
     $scope.getProductsInfo();
