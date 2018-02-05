@@ -1,122 +1,143 @@
 [
   {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_1.jpg"
+    "brand": "Lenovo",
+    "name": "Lenovo Tab 3 Plus TB-8703X",
+    "price": "2236 zl",
+    "imgPath": "/img/products/tablets/tablet1.jpg"
   },
   {
-    "name": "Apple Iphone 7",
+    "brand": "Huawei",
+    "name": "HUAWEI MediaPad T3",
     "price": "135 zl",
-    "imgPath": "/img/products/tablet_2.jpg"
+    "imgPath": "/img/products/tablets/tablet2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_3.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab A 10.1",
+    "price": "1920 zl",
+    "imgPath": "/img/products/tablets/tablet3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_4.jpg"
+    "brand": "Apple",
+    "name": "Apple iPad Wi-Fi 128GB",
+    "price": "999 zl",
+    "imgPath": "/img/products/tablets/tablet4.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_5.jpg"
+    "brand": "Lenovo",
+    "name": "Lenovo TB-X103F",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tablets/tablet5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_6.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab E 9.6",
+    "price": "2103 zl",
+    "imgPath": "/img/products/tablets/tablet6.jpg"
+  },{
+    "brand": "Lenovo",
+    "name": "Lenovo Tab 3 Plus TB-8703X",
+    "price": "2236 zl",
+    "imgPath": "/img/products/tablets/tablet1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_7.jpg"
-  },
-  {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_8.jpg"
-  },
-  {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_1.jpg"
-  },
-  {
-    "name": "Apple Iphone 7",
+    "brand": "Huawei",
+    "name": "HUAWEI MediaPad T3",
     "price": "135 zl",
-    "imgPath": "/img/products/tablet_2.jpg"
+    "imgPath": "/img/products/tablets/tablet2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_3.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab A 10.1",
+    "price": "1920 zl",
+    "imgPath": "/img/products/tablets/tablet3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_4.jpg"
+    "brand": "Apple",
+    "name": "Apple iPad Wi-Fi 128GB",
+    "price": "999 zl",
+    "imgPath": "/img/products/tablets/tablet4.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_5.jpg"
+    "brand": "Lenovo",
+    "name": "Lenovo TB-X103F",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tablets/tablet5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_6.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab E 9.6",
+    "price": "2103 zl",
+    "imgPath": "/img/products/tablets/tablet6.jpg"
+  },{
+    "brand": "Lenovo",
+    "name": "Lenovo Tab 3 Plus TB-8703X",
+    "price": "2236 zl",
+    "imgPath": "/img/products/tablets/tablet1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_7.jpg"
-  },
-  {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_8.jpg"
-  },
-  {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_1.jpg"
-  },
-  {
-    "name": "Apple Iphone 7",
+    "brand": "Huawei",
+    "name": "HUAWEI MediaPad T3",
     "price": "135 zl",
-    "imgPath": "/img/products/tablet_2.jpg"
+    "imgPath": "/img/products/tablets/tablet2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_3.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab A 10.1",
+    "price": "1920 zl",
+    "imgPath": "/img/products/tablets/tablet3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_4.jpg"
+    "brand": "Apple",
+    "name": "Apple iPad Wi-Fi 128GB",
+    "price": "999 zl",
+    "imgPath": "/img/products/tablets/tablet4.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_5.jpg"
+    "brand": "Lenovo",
+    "name": "Lenovo TB-X103F",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tablets/tablet5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_6.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab E 9.6",
+    "price": "2103 zl",
+    "imgPath": "/img/products/tablets/tablet6.jpg"
+  },{
+    "brand": "Lenovo",
+    "name": "Lenovo Tab 3 Plus TB-8703X",
+    "price": "2236 zl",
+    "imgPath": "/img/products/tablets/tablet1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_7.jpg"
+    "brand": "Huawei",
+    "name": "HUAWEI MediaPad T3",
+    "price": "135 zl",
+    "imgPath": "/img/products/tablets/tablet2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tablet_8.jpg"
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab A 10.1",
+    "price": "1920 zl",
+    "imgPath": "/img/products/tablets/tablet3.jpg"
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPad Wi-Fi 128GB",
+    "price": "999 zl",
+    "imgPath": "/img/products/tablets/tablet4.jpg"
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Lenovo TB-X103F",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tablets/tablet5.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Tab E 9.6",
+    "price": "2103 zl",
+    "imgPath": "/img/products/tablets/tablet6.jpg"
   }
 ]

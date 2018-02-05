@@ -1,122 +1,146 @@
 [
   {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE40MU6172",
+    "price": "2125 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 7",
-    "price": "135 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "LG",
+    "name": "LG 43UJ630V",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tvs/tv2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv3.jpg"
+    "brand": "Kivi",
+    "name": "Kivi 32HK30G",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "LG",
+    "name": "LG 32LJ610V",
+    "price": "1535 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv5.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE50MU6172",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv6.jpg"
+    "brand": "Bravis",
+    "name": "Bravis UHD-45F6000",
+    "price": "1900 zl",
+    "imgPath": "/img/products/tvs/tv6.jpg"
   },
   {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE40MU6172",
+    "price": "2125 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 7",
-    "price": "135 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "LG",
+    "name": "LG 43UJ630V",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tvs/tv2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv3.jpg"
+    "brand": "Kivi",
+    "name": "Kivi 32HK30G",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "LG",
+    "name": "LG 32LJ610V",
+    "price": "1535 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE50MU6172",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Bravis",
+    "name": "Bravis UHD-45F6000",
+    "price": "1900 zl",
+    "imgPath": "/img/products/tvs/tv6.jpg"
   },
   {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE40MU6172",
+    "price": "2125 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 7",
-    "price": "135 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "LG",
+    "name": "LG 43UJ630V",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tvs/tv2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv3.jpg"
+    "brand": "Kivi",
+    "name": "Kivi 32HK30G",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "LG",
+    "name": "LG 32LJ610V",
+    "price": "1535 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv5.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE50MU6172",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv6.jpg"
+    "brand": "Bravis",
+    "name": "Bravis UHD-45F6000",
+    "price": "1900 zl",
+    "imgPath": "/img/products/tvs/tv6.jpg"
   },
   {
-    "name": "TV Super Duper Smart",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE40MU6172",
+    "price": "2125 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 7",
-    "price": "135 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "LG",
+    "name": "LG 43UJ630V",
+    "price": "1199 zl",
+    "imgPath": "/img/products/tvs/tv2.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv3.jpg"
+    "brand": "Kivi",
+    "name": "Kivi 32HK30G",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv3.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "LG",
+    "name": "LG 32LJ610V",
+    "price": "1535 zl",
+    "imgPath": "/img/products/tvs/tv1.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv2.jpg"
+    "brand": "Samsung",
+    "name": "Samsung UE50MU6172",
+    "price": "999 zl",
+    "imgPath": "/img/products/tvs/tv5.jpg"
   },
   {
-    "name": "Apple Iphone 8",
-    "price": "125 zl",
-    "imgPath": "/img/products/tv1.jpg"
+    "brand": "Bravis",
+    "name": "Bravis UHD-45F6000",
+    "price": "1900 zl",
+    "imgPath": "/img/products/tvs/tv6.jpg"
   }
 ]

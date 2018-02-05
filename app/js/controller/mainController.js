@@ -27,7 +27,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
     };
 
     $scope.getProductsInfo = function () {
-        $http.get("/json/products-data.json")
+        $http.get("/json/smartphones.json")
             .then(function (response) {
                 $scope.productData = response.data;
                 $scope.wholeProduct($scope.productData);
