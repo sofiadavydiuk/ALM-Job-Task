@@ -1,0 +1,140 @@
+[
+  {
+    "brand": "Apple",
+    "name": "Apple Iphone 5",
+    "price": "3125 zl",
+    "imgPath": "/img/products/smartphones/smartphone1.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/smartphones/smartphone2.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/smartphones/smartphone3.jpg"
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/smartphones/smartphone4.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/smartphones/smartphone5.jpg"
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple Iphone 5",
+    "price": "3125 zl",
+    "imgPath": "/img/products/smartphones/smartphone1.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/smartphones/smartphone2.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/smartphones/smartphone3.jpg"
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/smartphones/smartphone4.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/smartphones/smartphone5.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "3500 zl",
+    "imgPath": "/img/products/smartphones/smartphone6.jpg"
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple Iphone 5",
+    "price": "3125 zl",
+    "imgPath": "/img/products/smartphones/smartphone1.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/smartphones/smartphone2.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/smartphones/smartphone3.jpg"
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/smartphones/smartphone4.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/smartphones/smartphone5.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "3500 zl",
+    "imgPath": "/img/products/smartphones/smartphone6.jpg"
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple Iphone 5",
+    "price": "3125 zl",
+    "imgPath": "/img/products/smartphones/smartphone1.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy 10",
+    "price": "2135 zl",
+    "imgPath": "/img/products/smartphones/smartphone2.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "1500 zl",
+    "imgPath": "/img/products/smartphones/smartphone3.jpg"
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Lenovo 15",
+    "price": "1250 zl",
+    "imgPath": "/img/products/smartphones/smartphone4.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5233",
+    "price": "100 zl",
+    "imgPath": "/img/products/smartphones/smartphone5.jpg"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei 4",
+    "price": "3500 zl",
+    "imgPath": "/img/products/smartphones/smartphone6.jpg"
+  }
+]
