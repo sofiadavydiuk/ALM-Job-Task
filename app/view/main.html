@@ -1,12 +1,24 @@
 <section class="filters">
 
     <div class="col-md-12">
-        <div class="filter-wrapper_main">
-            <input type="text" id="nameFilterMain" placeholder="Search" ng-model="mainSearchVal.value" >
-           <button class="btn btn-success" ng-click="openSearchPage(3)"> Search </button>
+        <div class="col-md-6">
+            <div class="filter-wrapper_main">
+                <input type="text" id="nameFilterMain" placeholder="Search" ng-model="mainSearchVal.value">
+                <button class="btn btn-success" ng-click="openSearchPage(3)"> Search</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="changeCategoryBtn__wrap">
+                <button class="btn btn-success changeCategoryBtn" type="button"
+                        ng-repeat="item in categories"
+                        ng-attr-data-number="{{$index}}"
+                        ng-class="{'active': $index == activeProductNumber}"
+                        ng-click="changeCategory($event)">{{item.category}}
+                </button>
+            </div>
         </div>
     </div>
-
+<div class="col-md-12">
     <div class="col-md-6">
         <div class="filter-wrapper">
             <label for="nameFilter">Filter By Name:</label>
@@ -17,24 +29,13 @@
             <input type="text" id="priceFilter" placeholder="Type Product Price" ng-model="search.price">
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="changeCategoryBtn__wrap">
-            <button class="btn btn-success changeCategoryBtn" type="button"
-                    ng-repeat="item in categories"
-                    ng-attr-data-number="{{$index}}"
-                    ng-class="{'active': $index == activeProductNumber}"
-                    ng-click="changeCategory($event)">{{item.category}}
-            </button>
-        </div>
+    <div class="col-md-6 ">
+        <button class="btn btn-success sortByButton" type="button" ng-click="sortBy('price')">
+            Order By Price
+            <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
     </div>
-</section>
-<section>
-    <button class="btn btn-success" type="button"  ng-click="sortBy('price')">
-        Order By Price
-        <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </button>
-    <!--<button class="btn btn-success" type="button" >From Cheap to Expensive-->
-        <!--<i class="fa fa-arrow-up" aria-hidden="true"></i></button>-->
+</div>
 </section>
 
 <section class="products">

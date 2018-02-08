@@ -1,15 +1,11 @@
 <div class="clearfix"></div>
 
-<form>
-    <label ng-click=""><input type="radio" name="phone">Nokia</label><br>
-    <label><input type="radio" name="phone"> Samsung</label><br>
-    <label><input type="radio" name="phone">IPhone</label> <br>
-</form>
 
 <div class="col-md-12">
     <h2 class="info-article">Smartphones</h2>
     <hr class="category_hr">
 </div>
+
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"
      ng-repeat="item in productData | filter:search  | limitTo:quantity |  orderBy:propertyName:reverse ">
@@ -22,4 +18,7 @@
         </div>
     </div>
 </div>
+
+
+
 

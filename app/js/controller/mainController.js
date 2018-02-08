@@ -14,8 +14,11 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
 
     $scope.mainSearchVal = {};
 
+
     $scope.mainSearchRes = {};
     $scope.wholeProductsData = [{}];
+
+
 
     $scope.propertyName = 'price';
     $scope.reverse = true;
@@ -26,22 +29,33 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         $scope.propertyName = propertyName;
     };
 
-    $scope.getProductsInfo = function () {
-        $http.get("/json/smartphones.json")
-            .then(function (response) {
-                $scope.productData = response.data;
-                $scope.wholeProduct($scope.productData);
-            }, function (error) {
-                console.log("error on getting product data1");
-            });
-    }
-
     $scope.getCategoriesInfo = function () {
         $http.get("/json/categories.json")
             .then(function (response) {
                 $scope.categories = response.data;
             }, function (error) {
                 console.log("error on getting product data2");
+            });
+    }
+
+    $scope.getProductsInfo = function () {
+        $http.get("/json/smartphones.json")
+            .then(function (response) {
+                $scope.productData = response.data;
+                $scope.wholeProduct($scope.productData);
+                console.log($scope.checkboxProductsData.smartphones);
+            }, function (error) {
+                console.log("error on getting product data1");
+            });
+    }
+
+    $scope.getTabletsProductsInfo = function () {
+        $http.get("/json/tablets.json")
+            .then(function (response) {
+                $scope.tabletProducts = response.data;
+                $scope.wholeProduct($scope.tabletProducts);
+            }, function (error) {
+                console.log("error on getting product data4");
             });
     }
 
@@ -55,15 +69,7 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
             });
     }
 
-    $scope.getTabletsProductsInfo = function () {
-        $http.get("/json/tablets.json")
-            .then(function (response) {
-                $scope.tabletProducts = response.data;
-                $scope.wholeProduct($scope.tabletProducts);
-            }, function (error) {
-                console.log("error on getting product data4");
-            });
-    }
+
 
     //Displaying different lists of products when click on filter buttons:
     $scope.changeCategory = function (event) {
@@ -107,9 +113,12 @@ mainApp.controller('mainController', ["$scope", "$http", function ($scope, $http
         }
     }
 
+
+
+
     $scope.getProductsInfo();
-    $scope.getCategoriesInfo();
-    $scope.getTVInfo();
     $scope.getTabletsProductsInfo();
+    $scope.getTVInfo();
+    $scope.getCategoriesInfo();
 
 }]);
